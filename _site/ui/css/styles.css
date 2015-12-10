@@ -166,7 +166,7 @@ body {
         width: 50%;
     }
 
-    .smallish-display-block {
+    p > span:first-child {
         display: block;
     }
     .smallish-hide {
@@ -199,6 +199,13 @@ body {
 
     p {
         font-size: 14px;
+    }
+
+    .smallish-display-block {
+        display: block;
+    }
+    .small-hide {
+        display: none;
     }
 
 }
