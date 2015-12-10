@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-text-size-adjust: none;
+    zoom: 1;
+}
+
+body {
+    background-color: #00364a;
+}
+
+.wrapper-outer {
+    background: #006563 url('../img/edc.logopage.bottom.border.2400px.blue.png') bottom center repeat-x;
+    -webkit-background-size: 1200px auto;           /* Safari 3.0 */
+       -moz-background-size: 1200px auto;           /* Gecko 1.9.2 (Firefox 3.6) */
+         -o-background-size: 1200px auto;           /* Opera 9.5 */
+            background-size: 1200px auto;           /* Gecko 2.0 (Firefox 4.0) and other CSS3-compliant browsers */
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1200px;
+    padding-bottom: 60px;
+}
+
+.wrapper-inner {
+        min-height: 1100px;
+
+        background: url('../img/edc.chevron.bg.a.flush.png') top center no-repeat;
+        -webkit-background-size: 1200px auto;           /* Safari 3.0 */
+           -moz-background-size: 1200px auto;           /* Gecko 1.9.2 (Firefox 3.6) */
+             -o-background-size: 1200px auto;           /* Opera 9.5 */
+                background-size: 1200px auto;           /* Gecko 2.0 (Firefox 4.0) and other CSS3-compliant browsers */
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 1200px;
+        padding-top: 180px;
+}
+    .wrapper-inner img {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .mark {
+        margin-top: 116px;
+        margin-bottom: 400px
+    }
+    p {
+        color: #001435;
+        font-family: sans;
+        font-size: 14px;
+        text-align: center;
+    }
+        a {
+            color: #001435;
+            text-decoration: none;
+        }
+
+
+@media screen and (max-width: 1200px) {
+
+body {
+    background: #006563 url('../img/edc.logopage.bottom.border.2400px.blue.png') bottom center repeat-x;
+    -webkit-background-size: 1200px auto;           /* Safari 3.0 */
+       -moz-background-size: 1200px auto;           /* Gecko 1.9.2 (Firefox 3.6) */
+         -o-background-size: 1200px auto;           /* Opera 9.5 */
+            background-size: 1200px auto;           /* Gecko 2.0 (Firefox 4.0) and other CSS3-compliant browsers */
+}
+
+.wrapper-outer {
+    background: none;
+}
+
+.wrapper-inner {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+    .wrapper-inner .logo {
+        max-width: 705px;
+        width: 100%;
+    }
+
+    .wrapper-inner .mark {
+        max-width: 270px;
+        width: 50%;
+    }
+
+}
+
+@media screen and (max-width: 745px) {
+
+    .wrapper-inner {
+        min-height: 800px;
+        -webkit-background-size: 954px auto;           /* Safari 3.0 */
+           -moz-background-size: 954px auto;           /* Gecko 1.9.2 (Firefox 3.6) */
+             -o-background-size: 954px auto;           /* Opera 9.5 */
+                background-size: 954px auto;           /* Gecko 2.0 (Firefox 4.0) and other CSS3-compliant browsers */
+        padding-top: 100px
+    }
+
+    .wrapper-inner .logo {
+        max-width: 600px;
+        width: 100%;
+    }
+
+    .wrapper-inner .mark {
+        margin-bottom: 260px;
+        max-width: 230px;
+        width: 50%;
+    }
+
+}
+
+@media screen and (max-width: 640px) {
+
+    .wrapper-inner {
+        min-height: 738px;
+        -webkit-background-size: 804px auto;           /* Safari 3.0 */
+           -moz-background-size: 804px auto;           /* Gecko 1.9.2 (Firefox 3.6) */
+             -o-background-size: 804px auto;           /* Opera 9.5 */
+                background-size: 804px auto;           /* Gecko 2.0 (Firefox 4.0) and other CSS3-compliant browsers */
+        padding-top: 100px
+    }
+
+    .wrapper-inner .logo {
+        max-width: 440px;
+        width: 100%;
+    }
+
+    .wrapper-inner .mark {
+        max-width: 168px;
+        width: 50%;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+
+    .wrapper-inner {
+        min-height: 684px;
+        -webkit-background-size: 620px auto;           /* Safari 3.0 */
+           -moz-background-size: 620px auto;           /* Gecko 1.9.2 (Firefox 3.6) */
+             -o-background-size: 620px auto;           /* Opera 9.5 */
+                background-size: 620px auto;           /* Gecko 2.0 (Firefox 4.0) and other CSS3-compliant browsers */
+        padding-top: 100px
+    }
+
+    .wrapper-inner .logo {
+        max-width: 300px;
+        width: 100%;
+    }
+
+    .wrapper-inner .mark {
+        margin-top: 86px;
+        max-width: 114px;
+        width: 50%;
+    }
+
+}
+
+@media screen and (max-width: 340px) {
+
+    .wrapper-inner {
+        min-height: 640px;
+        -webkit-background-size: 566px auto;           /* Safari 3.0 */
+           -moz-background-size: 566px auto;           /* Gecko 1.9.2 (Firefox 3.6) */
+             -o-background-size: 566px auto;           /* Opera 9.5 */
+                background-size: 566px auto;           /* Gecko 2.0 (Firefox 4.0) and other CSS3-compliant browsers */
+        padding-top: 100px
+    }
+
+    .wrapper-inner .logo {
+        max-width: 240px;
+        width: 100%;
+    }
+
+    .wrapper-inner .mark {
+        max-width: 92px;
+        width: 92px;
+    }
+
+}
