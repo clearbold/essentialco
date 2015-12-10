@@ -166,6 +166,13 @@ body {
         width: 50%;
     }
 
+    .smallish-display-block {
+        display: block;
+    }
+    .smallish-hide {
+        display: none;
+    }
+
 }
 
 @media screen and (max-width: 480px) {
