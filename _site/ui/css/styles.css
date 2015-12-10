@@ -196,4 +196,11 @@ body {
         width: 92px;
     }
 
+    .small-display-block {
+        display: block;
+    }
+    .small-hide {
+        display: none;
+    }
+
 }
