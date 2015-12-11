@@ -1,0 +1,20 @@
+/* TEAM */
+    UI Development and Design: Mark Reeves
+    Contact: hello [at] essentialco.com
+    Twitter: @circa1977
+    From: Amherst, Massachusetts, United States
+
+    Branding & Design: Aaron Taylor-Waldman
+    Contact: aaron [at] taylorwaldman.com
+    Twitter: @atw
+    From: Northampton, Massachusetts, United States
+
+    Digital Humanities: Jamie Folsom
+    Twitter: @jamiefolsom
+    From: Brookline, Massachusetts, United States
+
+/* SITE */
+    Last update: December, 2015
+    Language: U.S. English
+    Doctype: HTML5
+    IDE: Atom Editor - On Ubuntu!
